@@ -4,9 +4,9 @@
 * 另外2015-2017年，在简书、知乎都写过一些文章，后来被封了账号，所以这次学聪明点，在github也备份一下。
 
 # 其他站点：
+* [个人博客](http://www.devpeng.com)
 * [简书](https://www.jianshu.com/u/ab82c808132d)
 * [知乎](https://www.zhihu.com/people/devpeng)
-* [个人博客](http://www.devpeng.com)
 * [掘金](https://juejin.im/user/5cbfd60df265da036d79bd6c)
 
 # 更新计划
