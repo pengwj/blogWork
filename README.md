@@ -11,6 +11,8 @@
 
 # 更新计划
 * 短期计划是更新6个月，一周一篇，24篇文章
+# 文章列表
+20190609:[iOS开发：浅谈内存管理](https://github.com/pengwj/blogWork/blob/master/article/iOS%E5%BC%80%E5%8F%91%EF%BC%9A%E6%B5%85%E8%B0%88%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.md)
 
 # 勘误
 * 如果在文章中发现了问题，欢迎提交 PR 或者 issue，欢迎大神们多多指点🙏🙏🙏
