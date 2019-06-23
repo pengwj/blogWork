@@ -15,19 +15,19 @@
 将响应事件从第一响应者顺着响应链传递，如果第一响应者无法响应将继续向父控件传递，直到找到最终响应对象。
 
 ## 如何寻找第一响应者
-1、当iOS程序发生触摸事件后，系统会利用Runloop将事件加入到UIApplication的任务队列中，具体过程可以参考[深入理解RunLoop](https://blog.ibireme.com/2015/05/18/runloop/)
-2、UIApplication分发触摸事件到UIWindow，然后UIWindow依次向下分发给UIView
-3、UIView调用```hitTest:withEvent:```方法看看自己能否处理事件，以及触摸点是否在自己上面。
-4、如果满足条件，就遍历UIView上的子控件。重复上面的动作。
-5、直到找到最顶层的一个满足条件（既能处理触摸事件，触摸点又在上面）的子控件，此子控件就是我们需要找到的第一响应者。
+1. 当iOS程序发生触摸事件后，系统会利用Runloop将事件加入到UIApplication的任务队列中，具体过程可以参考[深入理解RunLoop](https://blog.ibireme.com/2015/05/18/runloop/)
+2. UIApplication分发触摸事件到UIWindow，然后UIWindow依次向下分发给UIView
+3. UIView调用```hitTest:withEvent:```方法看看自己能否处理事件，以及触摸点是否在自己上面。
+4. 如果满足条件，就遍历UIView上的子控件。重复上面的动作。
+5. 直到找到最顶层的一个满足条件（既能处理触摸事件，触摸点又在上面）的子控件，此子控件就是我们需要找到的第一响应者。
 
 ## hitTest:withEvent:的处理流程
 （上面的查找其实就是由该方法递归调用实现的）
-1、首先调用当前视图的pointInside:withEvent:方法判断触摸点是否在当前视图内； 
-2、若返回NO,则hitTest:withEvent:返回nil; 
-3、若返回YES,则向当前视图的所有子视图(subviews)发送hitTest:withEvent:消息，所有子视图的遍历顺序是从最顶层视图一直到到最底层视图，即从subviews数组的末尾向前遍历，直到有子视图返回非空对象或者全部子视图遍历完毕； 
-4、若第一次有子视图返回非空对象，则hitTest:withEvent:方法返回此对象，处理结束； 
-5、如所有子视图都返回非，则hitTest:withEvent:方法返回自身(self)。 
+1. 首先调用当前视图的pointInside:withEvent:方法判断触摸点是否在当前视图内； 
+2. 若返回NO,则hitTest:withEvent:返回nil; 
+3. 若返回YES,则向当前视图的所有子视图(subviews)发送hitTest:withEvent:消息，所有子视图的遍历顺序是从最顶层视图一直到到最底层视图，即从subviews数组的末尾向前遍历，直到有子视图返回非空对象或者全部子视图遍历完毕； 
+4. 若第一次有子视图返回非空对象，则hitTest:withEvent:方法返回此对象，处理结束； 
+5. 如所有子视图都返回非，则hitTest:withEvent:方法返回自身(self)。 
 
 ##  hitTest:withEvent:方法的伪代码
 ```
