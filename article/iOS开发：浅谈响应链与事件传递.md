@@ -80,6 +80,8 @@
 
 ## 参考文章
 [iOS事件响应链传递的一些理解](https://blog.csdn.net/zyzxrj/article/details/53326482)
+
 [Using Responders and the Responder Chain to Handle Events](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events)
+
 [iOS响应链和传递机制](https://blog.csdn.net/agonie201218/article/details/71155240) 
 
