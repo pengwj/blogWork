@@ -93,6 +93,7 @@
 
 ## stroke 和 fill 方法的区别
 路径的绘制两种方式，一种是描绘（stroke），一种是填充（fill ）。前者是只绘制图形（一段段的线条），后者除了线条还包含内部的区域。具体效果如下图：
+
 ![stroke.jpeg](https://upload-images.jianshu.io/upload_images/14477290-641e2fd183dfca14.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![fill.jpeg](https://upload-images.jianshu.io/upload_images/14477290-e2b571c33f242ac1.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -164,8 +165,11 @@
 
 ## 参考资料
 [贝塞尔曲线原理(实现图真漂亮)](https://www.jianshu.com/p/8f82db9556d2)
+
 [UIBezierPath-UIKit|Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uibezierpath)
+
 [iOS UIBezierPath使用——贝塞尔曲线](https://www.jianshu.com/p/e136c3e65c29)
+
 [iOS之UIBezierPath贝塞尔曲线属性简介](https://www.cnblogs.com/xianfeng-zhang/p/7736508.html)
 
 
