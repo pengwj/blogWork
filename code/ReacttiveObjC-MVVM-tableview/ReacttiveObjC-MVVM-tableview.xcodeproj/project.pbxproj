@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BDC65825C6D52B0350872F8 /* Pods_ReacttiveObjC_MVVM_tableview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8A5D362F64A85C1DF03CE3 /* Pods_ReacttiveObjC_MVVM_tableview.framework */; };
+		A20059449BF1580900009CB2 /* Pods_ReacttiveObjC_MVVM_tableviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C6CB921536764A16B67521 /* Pods_ReacttiveObjC_MVVM_tableviewTests.framework */; };
+		E249818C22E36F5700284F3D /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E249818B22E36F5700284F3D /* APIClient.m */; };
+		E249818F22E4493000284F3D /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E249818E22E4493000284F3D /* BaseViewModel.m */; };
+		E2C3AF4822E3446D000D4C06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF4722E3446D000D4C06 /* AppDelegate.m */; };
+		E2C3AF4B22E3446D000D4C06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF4A22E3446D000D4C06 /* ViewController.m */; };
+		E2C3AF4E22E3446D000D4C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C3AF4C22E3446D000D4C06 /* Main.storyboard */; };
+		E2C3AF5022E3446F000D4C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C3AF4F22E3446F000D4C06 /* Assets.xcassets */; };
+		E2C3AF5322E3446F000D4C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C3AF5122E3446F000D4C06 /* LaunchScreen.storyboard */; };
+		E2C3AF5622E3446F000D4C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF5522E3446F000D4C06 /* main.m */; };
+		E2C3AF6022E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF5F22E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewTests.m */; };
+		E2C3AF6B22E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF6A22E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewUITests.m */; };
+		E2C3AF7F22E34529000D4C06 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF7E22E34529000D4C06 /* MainViewController.m */; };
+		E2C3AF8222E34540000D4C06 /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF8122E34540000D4C06 /* MainCell.m */; };
+		E2C3AF8522E34550000D4C06 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF8422E34550000D4C06 /* MainModel.m */; };
+		E2C3AF8822E34561000D4C06 /* MainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3AF8722E34561000D4C06 /* MainViewModel.m */; };
+		FB3B01E6C8F6FC010DD3B2B8 /* Pods_ReacttiveObjC_MVVM_tableviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B503D9FD9C374DF9F17AE618 /* Pods_ReacttiveObjC_MVVM_tableviewUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2C3AF5C22E34470000D4C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2C3AF3B22E3446D000D4C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2C3AF4222E3446D000D4C06;
+			remoteInfo = "ReacttiveObjC-MVVM-tableview";
+		};
+		E2C3AF6722E34470000D4C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2C3AF3B22E3446D000D4C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2C3AF4222E3446D000D4C06;
+			remoteInfo = "ReacttiveObjC-MVVM-tableview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F8A5D362F64A85C1DF03CE3 /* Pods_ReacttiveObjC_MVVM_tableview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReacttiveObjC_MVVM_tableview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D2C5ADFB0BE5A7A8A71879 /* Pods-ReacttiveObjC-MVVM-tableview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReacttiveObjC-MVVM-tableview.release.xcconfig"; path = "Target Support Files/Pods-ReacttiveObjC-MVVM-tableview/Pods-ReacttiveObjC-MVVM-tableview.release.xcconfig"; sourceTree = "<group>"; };
+		48C6CB921536764A16B67521 /* Pods_ReacttiveObjC_MVVM_tableviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReacttiveObjC_MVVM_tableviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5986B945D29AD79EAF66D76A /* Pods-ReacttiveObjC-MVVM-tableviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReacttiveObjC-MVVM-tableviewUITests.release.xcconfig"; path = "Target Support Files/Pods-ReacttiveObjC-MVVM-tableviewUITests/Pods-ReacttiveObjC-MVVM-tableviewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69925B685AB7F14CAE712354 /* Pods-ReacttiveObjC-MVVM-tableview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReacttiveObjC-MVVM-tableview.debug.xcconfig"; path = "Target Support Files/Pods-ReacttiveObjC-MVVM-tableview/Pods-ReacttiveObjC-MVVM-tableview.debug.xcconfig"; sourceTree = "<group>"; };
+		6A6D1DDD08E0370AAEDBACBB /* Pods-ReacttiveObjC-MVVM-tableviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReacttiveObjC-MVVM-tableviewTests.debug.xcconfig"; path = "Target Support Files/Pods-ReacttiveObjC-MVVM-tableviewTests/Pods-ReacttiveObjC-MVVM-tableviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B13FB3428FAF8CE701B86DC /* Pods-ReacttiveObjC-MVVM-tableviewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReacttiveObjC-MVVM-tableviewUITests.debug.xcconfig"; path = "Target Support Files/Pods-ReacttiveObjC-MVVM-tableviewUITests/Pods-ReacttiveObjC-MVVM-tableviewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4CFC4895154AD56BE360E55 /* Pods-ReacttiveObjC-MVVM-tableviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReacttiveObjC-MVVM-tableviewTests.release.xcconfig"; path = "Target Support Files/Pods-ReacttiveObjC-MVVM-tableviewTests/Pods-ReacttiveObjC-MVVM-tableviewTests.release.xcconfig"; sourceTree = "<group>"; };
+		B503D9FD9C374DF9F17AE618 /* Pods_ReacttiveObjC_MVVM_tableviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReacttiveObjC_MVVM_tableviewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E249818A22E36F5700284F3D /* APIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		E249818B22E36F5700284F3D /* APIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		E249818D22E4493000284F3D /* BaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		E249818E22E4493000284F3D /* BaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		E2C3AF4322E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReacttiveObjC-MVVM-tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C3AF4622E3446D000D4C06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2C3AF4722E3446D000D4C06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2C3AF4922E3446D000D4C06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2C3AF4A22E3446D000D4C06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2C3AF4D22E3446D000D4C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2C3AF4F22E3446F000D4C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2C3AF5222E3446F000D4C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2C3AF5422E3446F000D4C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C3AF5522E3446F000D4C06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2C3AF5B22E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReacttiveObjC-MVVM-tableviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C3AF5F22E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReacttiveObjC_MVVM_tableviewTests.m; sourceTree = "<group>"; };
+		E2C3AF6122E34470000D4C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C3AF6622E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReacttiveObjC-MVVM-tableviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C3AF6A22E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReacttiveObjC_MVVM_tableviewUITests.m; sourceTree = "<group>"; };
+		E2C3AF6C22E34470000D4C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C3AF7D22E34529000D4C06 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E2C3AF7E22E34529000D4C06 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E2C3AF8022E34540000D4C06 /* MainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		E2C3AF8122E34540000D4C06 /* MainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		E2C3AF8322E34550000D4C06 /* MainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		E2C3AF8422E34550000D4C06 /* MainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		E2C3AF8622E34561000D4C06 /* MainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewModel.h; sourceTree = "<group>"; };
+		E2C3AF8722E34561000D4C06 /* MainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C3AF4022E3446D000D4C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDC65825C6D52B0350872F8 /* Pods_ReacttiveObjC_MVVM_tableview.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C3AF5822E34470000D4C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20059449BF1580900009CB2 /* Pods_ReacttiveObjC_MVVM_tableviewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C3AF6322E34470000D4C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3B01E6C8F6FC010DD3B2B8 /* Pods_ReacttiveObjC_MVVM_tableviewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A92440397ECC1E5D7C1476D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8A5D362F64A85C1DF03CE3 /* Pods_ReacttiveObjC_MVVM_tableview.framework */,
+				48C6CB921536764A16B67521 /* Pods_ReacttiveObjC_MVVM_tableviewTests.framework */,
+				B503D9FD9C374DF9F17AE618 /* Pods_ReacttiveObjC_MVVM_tableviewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C79EAF401B9C1DAC7144E6AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69925B685AB7F14CAE712354 /* Pods-ReacttiveObjC-MVVM-tableview.debug.xcconfig */,
+				36D2C5ADFB0BE5A7A8A71879 /* Pods-ReacttiveObjC-MVVM-tableview.release.xcconfig */,
+				6A6D1DDD08E0370AAEDBACBB /* Pods-ReacttiveObjC-MVVM-tableviewTests.debug.xcconfig */,
+				A4CFC4895154AD56BE360E55 /* Pods-ReacttiveObjC-MVVM-tableviewTests.release.xcconfig */,
+				8B13FB3428FAF8CE701B86DC /* Pods-ReacttiveObjC-MVVM-tableviewUITests.debug.xcconfig */,
+				5986B945D29AD79EAF66D76A /* Pods-ReacttiveObjC-MVVM-tableviewUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E249818922E36F4500284F3D /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E249818A22E36F5700284F3D /* APIClient.h */,
+				E249818B22E36F5700284F3D /* APIClient.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E2C3AF3A22E3446D000D4C06 = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF4522E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview */,
+				E2C3AF5E22E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewTests */,
+				E2C3AF6922E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewUITests */,
+				E2C3AF4422E3446D000D4C06 /* Products */,
+				C79EAF401B9C1DAC7144E6AB /* Pods */,
+				4A92440397ECC1E5D7C1476D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C3AF4422E3446D000D4C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF4322E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview.app */,
+				E2C3AF5B22E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewTests.xctest */,
+				E2C3AF6622E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C3AF4522E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF7822E344FA000D4C06 /* Main */,
+				E2C3AF4622E3446D000D4C06 /* AppDelegate.h */,
+				E2C3AF4722E3446D000D4C06 /* AppDelegate.m */,
+				E2C3AF4922E3446D000D4C06 /* ViewController.h */,
+				E2C3AF4A22E3446D000D4C06 /* ViewController.m */,
+				E2C3AF4C22E3446D000D4C06 /* Main.storyboard */,
+				E2C3AF4F22E3446F000D4C06 /* Assets.xcassets */,
+				E2C3AF5122E3446F000D4C06 /* LaunchScreen.storyboard */,
+				E2C3AF5422E3446F000D4C06 /* Info.plist */,
+				E2C3AF5522E3446F000D4C06 /* main.m */,
+			);
+			path = "ReacttiveObjC-MVVM-tableview";
+			sourceTree = "<group>";
+		};
+		E2C3AF5E22E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF5F22E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewTests.m */,
+				E2C3AF6122E34470000D4C06 /* Info.plist */,
+			);
+			path = "ReacttiveObjC-MVVM-tableviewTests";
+			sourceTree = "<group>";
+		};
+		E2C3AF6922E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF6A22E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewUITests.m */,
+				E2C3AF6C22E34470000D4C06 /* Info.plist */,
+			);
+			path = "ReacttiveObjC-MVVM-tableviewUITests";
+			sourceTree = "<group>";
+		};
+		E2C3AF7822E344FA000D4C06 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E249818922E36F4500284F3D /* Api */,
+				E2C3AF7922E344FA000D4C06 /* ViewModel */,
+				E2C3AF7A22E344FA000D4C06 /* Controller */,
+				E2C3AF7B22E344FA000D4C06 /* Model */,
+				E2C3AF7C22E344FA000D4C06 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E2C3AF7922E344FA000D4C06 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF8622E34561000D4C06 /* MainViewModel.h */,
+				E2C3AF8722E34561000D4C06 /* MainViewModel.m */,
+				E249818D22E4493000284F3D /* BaseViewModel.h */,
+				E249818E22E4493000284F3D /* BaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E2C3AF7A22E344FA000D4C06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF7D22E34529000D4C06 /* MainViewController.h */,
+				E2C3AF7E22E34529000D4C06 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2C3AF7B22E344FA000D4C06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF8322E34550000D4C06 /* MainModel.h */,
+				E2C3AF8422E34550000D4C06 /* MainModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2C3AF7C22E344FA000D4C06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3AF8022E34540000D4C06 /* MainCell.h */,
+				E2C3AF8122E34540000D4C06 /* MainCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C3AF4222E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C3AF6F22E34470000D4C06 /* Build configuration list for PBXNativeTarget "ReacttiveObjC-MVVM-tableview" */;
+			buildPhases = (
+				350596E8E701331D3510FEF4 /* [CP] Check Pods Manifest.lock */,
+				E2C3AF3F22E3446D000D4C06 /* Sources */,
+				E2C3AF4022E3446D000D4C06 /* Frameworks */,
+				E2C3AF4122E3446D000D4C06 /* Resources */,
+				AC216017AA6395D727C0F0EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReacttiveObjC-MVVM-tableview";
+			productName = "ReacttiveObjC-MVVM-tableview";
+			productReference = E2C3AF4322E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2C3AF5A22E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C3AF7222E34470000D4C06 /* Build configuration list for PBXNativeTarget "ReacttiveObjC-MVVM-tableviewTests" */;
+			buildPhases = (
+				099831823D6C58D7A64A7AAF /* [CP] Check Pods Manifest.lock */,
+				E2C3AF5722E34470000D4C06 /* Sources */,
+				E2C3AF5822E34470000D4C06 /* Frameworks */,
+				E2C3AF5922E34470000D4C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C3AF5D22E34470000D4C06 /* PBXTargetDependency */,
+			);
+			name = "ReacttiveObjC-MVVM-tableviewTests";
+			productName = "ReacttiveObjC-MVVM-tableviewTests";
+			productReference = E2C3AF5B22E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2C3AF6522E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C3AF7522E34470000D4C06 /* Build configuration list for PBXNativeTarget "ReacttiveObjC-MVVM-tableviewUITests" */;
+			buildPhases = (
+				9B9F27090A2F67604F823EFD /* [CP] Check Pods Manifest.lock */,
+				E2C3AF6222E34470000D4C06 /* Sources */,
+				E2C3AF6322E34470000D4C06 /* Frameworks */,
+				E2C3AF6422E34470000D4C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C3AF6822E34470000D4C06 /* PBXTargetDependency */,
+			);
+			name = "ReacttiveObjC-MVVM-tableviewUITests";
+			productName = "ReacttiveObjC-MVVM-tableviewUITests";
+			productReference = E2C3AF6622E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C3AF3B22E3446D000D4C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = darkwing90s;
+				TargetAttributes = {
+					E2C3AF4222E3446D000D4C06 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E2C3AF5A22E34470000D4C06 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E2C3AF4222E3446D000D4C06;
+					};
+					E2C3AF6522E34470000D4C06 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E2C3AF4222E3446D000D4C06;
+					};
+				};
+			};
+			buildConfigurationList = E2C3AF3E22E3446D000D4C06 /* Build configuration list for PBXProject "ReacttiveObjC-MVVM-tableview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2C3AF3A22E3446D000D4C06;
+			productRefGroup = E2C3AF4422E3446D000D4C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C3AF4222E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview */,
+				E2C3AF5A22E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewTests */,
+				E2C3AF6522E34470000D4C06 /* ReacttiveObjC-MVVM-tableviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C3AF4122E3446D000D4C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C3AF5322E3446F000D4C06 /* LaunchScreen.storyboard in Resources */,
+				E2C3AF5022E3446F000D4C06 /* Assets.xcassets in Resources */,
+				E2C3AF4E22E3446D000D4C06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C3AF5922E34470000D4C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C3AF6422E34470000D4C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		099831823D6C58D7A64A7AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReacttiveObjC-MVVM-tableviewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		350596E8E701331D3510FEF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReacttiveObjC-MVVM-tableview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B9F27090A2F67604F823EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReacttiveObjC-MVVM-tableviewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC216017AA6395D727C0F0EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReacttiveObjC-MVVM-tableview/Pods-ReacttiveObjC-MVVM-tableview-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReacttiveObjC-MVVM-tableview/Pods-ReacttiveObjC-MVVM-tableview-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReacttiveObjC-MVVM-tableview/Pods-ReacttiveObjC-MVVM-tableview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C3AF3F22E3446D000D4C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C3AF8222E34540000D4C06 /* MainCell.m in Sources */,
+				E2C3AF4B22E3446D000D4C06 /* ViewController.m in Sources */,
+				E2C3AF8822E34561000D4C06 /* MainViewModel.m in Sources */,
+				E2C3AF8522E34550000D4C06 /* MainModel.m in Sources */,
+				E249818F22E4493000284F3D /* BaseViewModel.m in Sources */,
+				E2C3AF5622E3446F000D4C06 /* main.m in Sources */,
+				E2C3AF4822E3446D000D4C06 /* AppDelegate.m in Sources */,
+				E2C3AF7F22E34529000D4C06 /* MainViewController.m in Sources */,
+				E249818C22E36F5700284F3D /* APIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C3AF5722E34470000D4C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C3AF6022E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C3AF6222E34470000D4C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C3AF6B22E34470000D4C06 /* ReacttiveObjC_MVVM_tableviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2C3AF5D22E34470000D4C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2C3AF4222E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview */;
+			targetProxy = E2C3AF5C22E34470000D4C06 /* PBXContainerItemProxy */;
+		};
+		E2C3AF6822E34470000D4C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2C3AF4222E3446D000D4C06 /* ReacttiveObjC-MVVM-tableview */;
+			targetProxy = E2C3AF6722E34470000D4C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2C3AF4C22E3446D000D4C06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C3AF4D22E3446D000D4C06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2C3AF5122E3446F000D4C06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C3AF5222E3446F000D4C06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2C3AF6D22E34470000D4C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2C3AF6E22E34470000D4C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C3AF7022E34470000D4C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69925B685AB7F14CAE712354 /* Pods-ReacttiveObjC-MVVM-tableview.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ReacttiveObjC-MVVM-tableview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devpeng.www.ReacttiveObjC-MVVM-tableview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C3AF7122E34470000D4C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D2C5ADFB0BE5A7A8A71879 /* Pods-ReacttiveObjC-MVVM-tableview.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ReacttiveObjC-MVVM-tableview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devpeng.www.ReacttiveObjC-MVVM-tableview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2C3AF7322E34470000D4C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6D1DDD08E0370AAEDBACBB /* Pods-ReacttiveObjC-MVVM-tableviewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ReacttiveObjC-MVVM-tableviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devpeng.www.ReacttiveObjC-MVVM-tableviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReacttiveObjC-MVVM-tableview.app/ReacttiveObjC-MVVM-tableview";
+			};
+			name = Debug;
+		};
+		E2C3AF7422E34470000D4C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CFC4895154AD56BE360E55 /* Pods-ReacttiveObjC-MVVM-tableviewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ReacttiveObjC-MVVM-tableviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devpeng.www.ReacttiveObjC-MVVM-tableviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReacttiveObjC-MVVM-tableview.app/ReacttiveObjC-MVVM-tableview";
+			};
+			name = Release;
+		};
+		E2C3AF7622E34470000D4C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B13FB3428FAF8CE701B86DC /* Pods-ReacttiveObjC-MVVM-tableviewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ReacttiveObjC-MVVM-tableviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devpeng.www.ReacttiveObjC-MVVM-tableviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ReacttiveObjC-MVVM-tableview";
+			};
+			name = Debug;
+		};
+		E2C3AF7722E34470000D4C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5986B945D29AD79EAF66D76A /* Pods-ReacttiveObjC-MVVM-tableviewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ReacttiveObjC-MVVM-tableviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devpeng.www.ReacttiveObjC-MVVM-tableviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ReacttiveObjC-MVVM-tableview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C3AF3E22E3446D000D4C06 /* Build configuration list for PBXProject "ReacttiveObjC-MVVM-tableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C3AF6D22E34470000D4C06 /* Debug */,
+				E2C3AF6E22E34470000D4C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C3AF6F22E34470000D4C06 /* Build configuration list for PBXNativeTarget "ReacttiveObjC-MVVM-tableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C3AF7022E34470000D4C06 /* Debug */,
+				E2C3AF7122E34470000D4C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C3AF7222E34470000D4C06 /* Build configuration list for PBXNativeTarget "ReacttiveObjC-MVVM-tableviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C3AF7322E34470000D4C06 /* Debug */,
+				E2C3AF7422E34470000D4C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C3AF7522E34470000D4C06 /* Build configuration list for PBXNativeTarget "ReacttiveObjC-MVVM-tableviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C3AF7622E34470000D4C06 /* Debug */,
+				E2C3AF7722E34470000D4C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2C3AF3B22E3446D000D4C06 /* Project object */;
+}
