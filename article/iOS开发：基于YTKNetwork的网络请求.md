@@ -35,10 +35,10 @@ NS_ASSUME_NONNULL_END
         
         NSString *usString= [WJGlobalMethod getUserAgentString];
         
-        NSString *token = [WJUserInfoManager getCMLoginToken];
+        NSString *token = [WJUserInfoManager getWJLoginToken];
         token = token == nil ?@"":token;
         
-        NSString *userid = [WJUserInfoManager getCMLoginUserId];
+        NSString *userid = [WJUserInfoManager getWJLoginUserId];
         userid = userid == nil ?@"" :userid;
         
         if([token length])
@@ -63,10 +63,10 @@ NS_ASSUME_NONNULL_END
         NSString * userGa = [WJGlobalMethod getUserAgentString];
         [headerDic setValue:userGa forKey:@"X-API-UA"];
         
-        NSString *token = [WJUserInfoManager getCMLoginToken];
+        NSString *token = [WJUserInfoManager getWJLoginToken];
         token = token == nil ?@"":token;
         
-        NSString *userid = [WJUserInfoManager getCMLoginUserId];
+        NSString *userid = [WJUserInfoManager getWJLoginUserId];
         userid = userid == nil ?@"" :userid;
         
         if([token length])
@@ -182,9 +182,9 @@ NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_END
 ```
 ```
-#import "CMUploadImageApi.h"
+#import "WJUploadImageApi.h"
 
-@implementation CMUploadImageApi{
+@implementation WJUploadImageApi{
     UIImage *_image;
 }
 
@@ -209,15 +209,15 @@ NS_ASSUME_NONNULL_END
     NSMutableDictionary *headerDic = [NSMutableDictionary dictionaryWithCapacity:0];
 // 上传图片时需要设置请求头的“Content-Type”为@"multipart/form-data" 
     [headerDic setValue:@"multipart/form-data" forKey:@"Content-Type"];
-    NSString *usString= [CMGlobalMethod getUserAgentString];
+    NSString *usString= [WJGlobalMethod getUserAgentString];
     [headerDic setValue:usString forKey:@"User-Agent"];
-    NSString * userGa = [CMGlobalMethod getUserAgentString];
+    NSString * userGa = [WJGlobalMethod getUserAgentString];
     [headerDic setValue:userGa forKey:@"X-API-UA"];
     
-    NSString *token = [CMUserInfoManager getCMLoginToken];
+    NSString *token = [WJUserInfoManager getWJLoginToken];
     token = token == nil ?@"":token;
     
-    NSString *userid = [CMUserInfoManager getCMLoginUserId];
+    NSString *userid = [WJUserInfoManager getWJLoginUserId];
     userid = userid == nil ?@"" :userid;
     
     if([token length])
