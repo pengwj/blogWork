@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/A" "${PODS_ROOT}/Headers/Public/A_Category" "${PODS_ROOT}/Headers/Public/B_Category" "${PODS_ROOT}/Headers/Public/CTHandyCategories" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/HandyFrame"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/A" "${PODS_CONFIGURATION_BUILD_DIR}/A_Category" "${PODS_CONFIGURATION_BUILD_DIR}/B_Category" "${PODS_CONFIGURATION_BUILD_DIR}/CTHandyCategories" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/HandyFrame"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"A" -l"A_Category" -l"B_Category" -l"CTHandyCategories" -l"CTMediator" -l"HandyFrame" -framework "CoreLocation" -framework "MapKit" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
