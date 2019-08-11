@@ -24,6 +24,9 @@
 20190714|[iOS开发：初探ReactiveCocoa](https://github.com/pengwj/blogWork/blob/master/article/iOS开发：初探ReactiveCocoa.md)
 20190721|[iOS开发：ReactiveCocoa+MVVM（UITableView）实战](https://github.com/pengwj/blogWork/blob/master/article/iOS%E5%BC%80%E5%8F%91%EF%BC%9AReactiveCocoa%2BMVVM%EF%BC%88UITableView%EF%BC%89%E5%AE%9E%E6%88%98.md)
 20190728|[iOS开发：基于YTKNetwork的网络请求](https://github.com/pengwj/blogWork/blob/master/article/iOS%E5%BC%80%E5%8F%91%EF%BC%9A%E5%9F%BA%E4%BA%8EYTKNetwork%E7%9A%84%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82.md)
+20190804|[iOS开发：组件化封装的尝试](https://github.com/pengwj/blogWork/blob/master/article/iOS开发：组件化封装的尝试.md)
+20190811|[iOS开发：接入闪萌动图（仿qq效果）并支持webp动图解析](https://github.com/pengwj/blogWork/blob/master/article/iOS开发：接入闪萌动图（仿qq效果）并支持webp动图解析.md)
+
 
 
 
