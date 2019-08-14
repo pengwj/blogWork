@@ -4,7 +4,7 @@
 3、支持webp
 
 # demo链接
-明天提供demo
+https://github.com/pengwj/blogWork/tree/master/code/ShanMengTest
 
 # 接入闪萌api
 闪萌的api需要在他们官网http://www.weshineapp.com，找客服领取测试用的id、密钥。
