@@ -13,13 +13,8 @@
 #import <AFNetworking/AFNetworking.h>
 #import <CommonCrypto/CommonDigest.h>
 
-static NSString * const MSShanMengOPENID = @"1482924088";
-static NSString * const MSShanMengSECRET = @"54330bef513070bac0acfc74f3791d6c";
-
-/*
- OPENID : 1482924088
- SECRET : 54330bef513070bac0acfc74f3791d6c
- */
+static NSString * const MSShanMengOPENID = @"你的OPENID";
+static NSString * const MSShanMengSECRET = @"你的SECRET";
 
 @interface MSShanMengViewModel ()
 
