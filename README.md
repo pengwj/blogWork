@@ -26,6 +26,7 @@
 20190728|[iOS开发：基于YTKNetwork的网络请求](https://github.com/pengwj/blogWork/blob/master/article/iOS%E5%BC%80%E5%8F%91%EF%BC%9A%E5%9F%BA%E4%BA%8EYTKNetwork%E7%9A%84%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82.md)
 20190804|[iOS开发：组件化封装的尝试](https://github.com/pengwj/blogWork/blob/master/article/iOS开发：组件化封装的尝试.md)
 20190811|[iOS开发：接入闪萌动图（仿qq效果）并支持webp动图解析](https://github.com/pengwj/blogWork/blob/master/article/iOS开发：接入闪萌动图（仿qq效果）并支持webp动图解析.md)
+20190818|[iOS开发：核心动画CoreAnimation学习](https://github.com/pengwj/blogWork/blob/master/article/iOS%E5%BC%80%E5%8F%91%EF%BC%9A%E6%A0%B8%E5%BF%83%E5%8A%A8%E7%94%BBCoreAnimation%E5%AD%A6%E4%B9%A0.md)
 
 
 
